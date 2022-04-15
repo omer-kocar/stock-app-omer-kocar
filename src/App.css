@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.stock-left {
+    padding: 16px;
+}
+
+th,td {
+    border: 1px solid #ffff;
+    padding: 8px;
+    font-size: 16px;
+}
+
+th {
+    background-color: rgb(117,201,250);
+}
+
+td {
+    background-color: rgb(205,235,253);
+}
+
+.header {
+    background-color: rgb(44, 75, 92);
+    padding: 16px;
+    font-size: 25px;
+    margin-bottom: 32px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+button {
+    display: table-column;
+    margin: 16px;
+    padding: 16px;
+    padding-left: 32px ;
+    padding-right: 32px ;
+    line-height: 10%;
+    background-color: rgb(34, 99, 168);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    color: #ffff;
+    
+}
+
+
+.form {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+input {
+    border: 1px solid gray;
+    margin: 16px;
+    padding: 16px;
+    
+  
+}
