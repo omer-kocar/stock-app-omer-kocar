@@ -1,6 +1,7 @@
 import "./App.css";
 import medicineContext from "./context/MedicineContext";
-import Body from "./components/Body";
+import MedicineList from "./components/MedicineList"
+
 
 function App() {
   return (
@@ -8,8 +9,10 @@ function App() {
       <div className='header'>
       Pharmacy Medicine List</div>
       <medicineContext.Provider>
-        <Body />
+        <MedicineList />
+       
       </medicineContext.Provider>
+      
     </div>
   );
 }
